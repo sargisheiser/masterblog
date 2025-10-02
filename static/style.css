@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    background-color: #f9fafb;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    background: linear-gradient(135deg, #4f46e5, #3b82f6);
+    color: white;
+    font-size: 2rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+a {
+    color: #3b82f6;
+    text-decoration: none;
+    font-weight: 500;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+article {
+    max-width: 700px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+article h2 {
+    margin-top: 0;
+    color: #111827;
+}
+
+article em {
+    color: #6b7280;
+    font-size: 0.9rem;
+}
+
+article hr {
+    margin-top: 20px;
+    border: none;
+    height: 1px;
+    background-color: #e5e7eb;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+label {
+    font-weight: 500;
+    color: #374151;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    border-color: #3b82f6;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+}
+
+button {
+    background: #3b82f6;
+    border: none;
+    padding: 8px 14px;
+    margin: 5px 0;
+    border-radius: 6px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    display: inline-block;
+    margin-top: 10px;
+}
+button:hover {
+    background: #2563eb;
+}
+
+form button[onclick] {
+    background: #ef4444;
+}
+form button[onclick]:hover {
+    background: #dc2626;
+}
+
+p a {
+    display: inline-block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 8px 14px;
+    background: #6b7280;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.2s ease;
+}
+p a:hover {
+    background: #4b5563;
+}
